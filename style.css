@@ -1,0 +1,171 @@
+body {
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+  background: #333;
+  padding-bottom: 25px;
+}
+
+
+h1, h2, h3, h4 {
+font-family:MaturaMTScriptCapitals;
+color:orange;
+padding: inherit;
+}
+
+p {
+color:white;
+font-family:MaturaMTScriptCapitals;
+}
+
+ul {
+list-style-type: none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #a9a9a9;
+}
+
+li {
+float:left;
+}
+
+li a {
+display: block;
+color:orange;
+text-align:left;
+padding:14px 16px;
+text-decoration:none;
+}
+
+li a:hover:not(.active){
+background-color:grey;
+}
+
+.active{
+background-color: #333;
+}
+
+
+.contents {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: bottom: 25px;
+    color: darkgoldenrod !important;
+    position: absolute;
+    top: 100px;
+}
+
+.contents img {
+    margin-right: 15px;
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+
+.contents h3,
+.contents p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+    color: darkgoldenrod;
+}
+
+div.img {
+    margin: 10px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 120px;
+    height : 200px;
+} 
+
+div.img:hover {
+    border: 5px solid darkgoldenrod;
+}
+
+div.img img {
+    width: 100%;
+    height: 100px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+
+images {
+    width: 50%;
+    height: 25%;
+}
+
+#footer {
+background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)), url(img/);    
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);    
+color:purple;
+text-align:center;
+padding:5px;
+width: 100%;
+bottom: 0;
+    position: fixed;
+    left: 0;
+}
+
+.contact-title {
+margin-top: 100px;
+color: #fff;
+text-transform: uppercase;
+transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+font-size: 32px;
+line-height: 10px;
+color: white;
+}
+
+.contact-title h2{
+font-size: 20px;
+}
+
+form {
+margin-top: 50px;
+transition: all 4s ease-in-out;
+}
+
+.form-control {
+width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid gray;
+color: #fff;
+font-size: 18px;
+margin-bottom: 16px;
+}
+
+input {
+height: 45px;
+}
+
+form .submit {
+background:#A9A9A9;
+border-color: transparent;
+color: darkorange;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 2px;
+height: 50px;
+margin-top: 20px;
+}
+
+form .submit:hover {
+background-color: grey;
+cursor: pointer;
+}
